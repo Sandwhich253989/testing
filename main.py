@@ -11,6 +11,7 @@ sbs.add_syllabus("Eng", 4)
 sbs.add_syllabus("Business", 4)
 print(f"Syllabus after adding all of the courses: {sbs.syllabus}")
 
+
 sbs.delete_syllabus("dsa", 2)
 print(f"Syllabus after deleting the mentioned course : {sbs.syllabus}\n")
 
