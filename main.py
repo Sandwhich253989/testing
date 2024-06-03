@@ -17,7 +17,6 @@ print(f"Syllabus after deleting the mentioned course : {sbs.syllabus}\n")
 sbs.get_syllabus(4)
 
 
-
 std.add_student_details(1001, "a", "1/1/06", 2021)
 print("student database: ", std.students)
 
