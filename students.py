@@ -30,6 +30,7 @@ def get_syllabus_student_id(student_id):
         if students[i]["student_id"] == student_id:
             year = (current_year - students[i]["year_joined"])
             sbs.get_syllabus(year)
+
             success = True
             break
     if not success:
